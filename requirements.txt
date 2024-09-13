@@ -4,3 +4,4 @@ plotly.express
 matplotlib.pyplot
 streamlit
 math 
+matplotlib
