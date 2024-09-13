@@ -1,14 +1,8 @@
 import pandas as pd
 import numpy as np
 import plotly.express as px
-import altair as alt
 import matplotlib.pyplot as plt
-from urllib.request import urlopen
 import streamlit as st
-import datetime 
-import os
-import json 
-import openpyxl as pxl
 import math 
 
 st.set_page_config(
