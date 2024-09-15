@@ -63,7 +63,7 @@ y_target.append(float(y_cible))
 with col[1]:
     st.markdown('### :green[BULLET TRAJECTORY]')
     fig=px.scatter(data,x='x',y='y', animation_frame='temps',
-                   range_x=[0,max(data['x'])], range_y=[0,max(data['y'])]
+                   range_x=[0,1.5*y_cible], range_y=[0,max(data['y'])]
                    )
     fig.update_traces(marker=dict(color='orange'))
 
