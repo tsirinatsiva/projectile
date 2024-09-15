@@ -61,7 +61,7 @@ y_target.append(float(y_cible))
 
 
 with col[1]:
-    st.markdown('### :green[ROCKET CURVE]')
+    st.markdown('### :green[BULLET TRAJECTORY]')
     fig=px.scatter(data,x='x',y='y', animation_frame='temps',
                    range_x=[0,max(data['x'])], range_y=[0,max(data['y'])]
                    )
