@@ -51,8 +51,8 @@ with col[0]:
     y_target=[]
 
 
-    x_cible = st.number_input(' :blue[X target (m)]', min_value= 0.0,  step=1.0, value = 1.0)
-    y_cible = st.number_input(' :blue[Y target (m)]', min_value= 0.0, step=1.0, value=1.0)
+    x_cible = st.number_input(' :blue[X target (m)]', min_value= 0.0,  step=1.0, value = 2.0)
+    y_cible = st.number_input(' :blue[Y target (m)]', min_value= 0.0, step=1.0, value=2.0)
 
 x_target.append(float(x_cible))
 y_target.append(float(y_cible))
