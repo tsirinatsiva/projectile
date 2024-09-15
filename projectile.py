@@ -19,8 +19,8 @@ g=9.81
 #CREATING SIDEBAR
 with st.sidebar:
     st.title(' :green[BULLET] ⛱️')
-    v0=st.number_input(' :blue[INITIAL VELOCITY (m/s)]', step=0.1, value = 1.0)
-    alpha =st.number_input(' :blue[LAUNCHING ANGLE (degree)]', min_value= 0.0, max_value = 90.0, step=0.1, value = 1.0)
+    v0=st.number_input(' :blue[INITIAL VELOCITY (m/s)]', step=0.1, value = 5.0)
+    alpha =st.number_input(' :blue[LAUNCHING ANGLE (degree)]', min_value= 0.0, max_value = 90.0, step=0.1, value = 5.0)
 
 
 alpha_rad = alpha *(355/(113*180))
