@@ -27,7 +27,7 @@ alpha_rad = alpha *(355/(113*180))
 b= v0*math.sin(alpha_rad)
 tfin=(2*b)/g
 
-t=0.01
+t=0.1
 temps=[0]
 xt=[]
 yt=[]
@@ -37,7 +37,7 @@ while t<=tfin:
      xt.append(v0*math.cos(alpha_rad)*t)
      yt.append(-0.5*g*(t)**2 + b*t )
      temps.append(t)
-     t=t+0.01
+     t=t+0.1
      
 data = pd.DataFrame(list(zip(xt,yt,temps)),columns=['x','y','temps'])
 
